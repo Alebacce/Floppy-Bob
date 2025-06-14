@@ -12,5 +12,6 @@ public class PipeSpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Instantiate(pipe, transform.position, transform.rotation);
     }
 }
