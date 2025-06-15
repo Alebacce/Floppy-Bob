@@ -4,7 +4,7 @@ using UnityEngine;
 public class PipeSpawnerScript : MonoBehaviour
 {
     public GameObject pipe;
-    public float spawnRate = 2;
+    public float spawnRate = 4;
     private float timer = 0;
     public float heightOffset = 6.25F;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
